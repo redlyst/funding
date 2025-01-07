@@ -1,5 +1,5 @@
 package transaction
 
-type GetCampaignTransactionInput struct {
+type GetCampaignTransactionsInput struct {
 	ID int `uri:"id" binding:"required"`
 }
